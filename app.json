@@ -4,5 +4,6 @@
     "pages/weclone/weclone"
   ],
   "window": {
+    "navigationBarBackgroundColor": "#405f80"
   }
 }
