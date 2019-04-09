@@ -1,4 +1,6 @@
-// pages/weclone/weclone.js
+// pages/posts/posts-detail/posts-detail.js
+const postContent = require('../../../data/posts-data.js');
+
 Page({
 
   /**
@@ -11,13 +13,10 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-
-  },
-
-  wecloneView: function() {
-    wx.redirectTo({
-      url: '../posts/posts'
+  onLoad: function (option) {
+    let postId = option.id
+    this.setData({
+      postDetail: postContent.postList[postId]
     })
   },
 

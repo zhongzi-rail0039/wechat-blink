@@ -1,0 +1,24 @@
+<!--pages/posts/posts-detail/posts-detail.wxml-->
+
+<view class="posts_detail_container">
+    <image class="header-images" src="{{postDetail.headImgSrc}}" />
+    <!-- <image class="auios" wx:if="{{condition}}" src="../../../images/music/music-start.png" /> -->
+    <!-- <image wx:else src="../../../images/music/music-stop.png" /> -->
+    <view class="posts_detail_author_data">
+        <image src="{{postDetail.avatar}}" />
+        <text class="authore">{{postDetail.author}}</text>
+        <text class="const-text">发表于</text>
+        <text class="data">{{postDetail.dateTime}}</text>
+    </view>
+    <text class="posts_detail_text">{{postDetail.content}}</text>
+    <view class="posts_detail_tool">
+        <view class="">
+            <image wx:if="{{}}" src="../../../images/icon/collection.png" />
+            <image wx:else src="../../../images/icon/collection.png" />
+            <image wx:if="{{}}" src="../../../images/icon/share.png" />
+            <image else src="../../../images/icon/share-anti.png" />
+        </view>
+        <view class="horizeon"></view>
+    </view>
+    <text class="posts_detail_detail">{{postDetail.detail}}</text>
+</view>

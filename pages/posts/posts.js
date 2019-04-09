@@ -18,6 +18,13 @@ Page({
     })
   },
 
+  postsItemTemplateView: function(event) {
+    let postsId = event.currentTarget.dataset.alphabeta;
+    wx.navigateTo({
+      url: './posts-detail/posts-detail?id=' + postsId
+    })
+  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
