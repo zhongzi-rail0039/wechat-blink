@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/home/home",
     "pages/classic/classic"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#ffff00",
+    "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "林枫有风",
     "backgroundColor": "#ffffff",

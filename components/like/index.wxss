@@ -1,0 +1,19 @@
+/* components/like/index.wxss */
+.like-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10rpx;
+}
+
+.like-container image {
+    width: 32rpx;
+    height: 28rpx;
+}
+
+.like-text {
+    font-size: 24rpx;
+    color: #bbbbbb;
+    position: relative;
+    bottom: 14rpx;
+    left: 6rpx;
+}
