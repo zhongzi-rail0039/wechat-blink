@@ -1,4 +1,4 @@
-// pages/weclone/weclone.js
+// pages/index/index.js
 Page({
 
   /**
