@@ -1,9 +1,13 @@
 {
   "pages": [
-    "pages/index/index"
-    
+    "pages/classic/classic"
   ],
   "window": {
-    
+    "navigationBarBackgroundColor": "#ffff00",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "林枫有风",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
   }
 }
