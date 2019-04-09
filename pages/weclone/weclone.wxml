@@ -1,8 +1,0 @@
-<!--pages/weclone/weclone.wxml-->
-<view class="user-avatar">
-    <image src="../../images/avatar/1.png"/>
-    <text class="user-name">Hello, 欢迎四月</text>
-    <view class="moto-contarn">
-        <text class="moto">开启小程序之旅</text>
-    </view>
-</view>

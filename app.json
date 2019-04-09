@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/posts/posts",
-    "pages/weclone/weclone"
+    "pages/index/index"
+    
   ],
   "window": {
-    "navigationBarBackgroundColor": "#405f80"
+    
   }
 }
