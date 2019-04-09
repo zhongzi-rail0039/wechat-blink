@@ -1,1 +1,51 @@
-/* pages/classic/classic.wxss */
+/* pages/classic/classic.wxss flex布局 */
+
+.conter {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 600px;
+    /* 垂直两边具有边距 （几种方案） */
+    justify-content: center; 
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* 向下对齐 */
+    /* justify-content: flex-end; */
+    /* 向上对齐 */
+    /* justify-content: flex-start; */
+    /* 水平居中 */
+    align-items: center;
+    /* 右边 */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    align-items: stretch;
+    /* 换行 && 不换行*/
+    flex-wrap: wrap;
+    background-color: #999999;
+}
+
+.chunk {
+    /* 行内元素 */
+    /* display: inline-block; */
+    /* width: 100px; */
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 36px;
+    background-color: red;
+}
+
+.color1 {
+    background-color: aquamarine;
+}
+
+.color2 {
+    background-color: bisque;
+}
+
+.color3 {
+    background-color: yellowgreen;
+}
+
+.color4 {
+    background-color: rgb(91, 50, 205);
+}
